@@ -13,8 +13,14 @@
     <link rel="canonical" href="http://dvqu.art">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/s/css/app.css?v=2018-11-06T21:03:54+0100" type="text/css">
+    <link rel="stylesheet" href="/s/css/app.css?v=2018-11-06T23:51:01+0100" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
 
     <link rel="shortcut icon" href="favicon.ico">
   </head>
@@ -33,13 +39,13 @@
 
           <div class="row" >
             <nav class="text-center">
-                <i class="fas fa-ellipsis-h"></i>
-                <a href="/#aboutme">About me</a> <i class="fas fa-ellipsis-h"></i>
-                <a href="/#contact">Contact</a> <i class="fas fa-ellipsis-h"></i>
-                <a href="/#highlights">Highlights</a> <i class="fas fa-ellipsis-h"></i>
-                <a href="/publications/">Publications&amp;Talks</a> <i class="fas fa-ellipsis-h"></i>
+                <i class="fas fa-ellipsis-v"></i>
+                <a href="/#aboutme">About me</a> <i class="fas fa-ellipsis-v"></i>
+                <a href="/#contact">Contact</a> <i class="fas fa-ellipsis-v"></i>
+                <a href="/#highlights">Highlights</a> <i class="fas fa-ellipsis-v"></i>
+                <a href="/publications/">Publications&amp;Talks</a> <i class="fas fa-ellipsis-v"></i>
                 <a href="/projects/">Projects&amp;Activities</a>
-                <i class="fas fa-ellipsis-h"></i>
+                <i class="fas fa-ellipsis-v"></i>
             </nav>
           <hr class="eight offset-by-two columns" />
           </div>
@@ -54,9 +60,23 @@
       <p>As a Marie-Skłodowska Curie alumni, I’ve been an exchange student at UC Santa Barbara’ <a href="https://seclab.cs.ucsb.edu/">SecLab</a>, working under the supervision of <a href="https://cs.ucsb.edu/~vigna/">Giovanni Vigna</a> and <a href="https://www.cs.ucsb.edu/~chris/">Christopher Kruegel</a>. At the end of my PhD I also had a chance to work as an engineering intern in Qualcomm’ Product Security group under the supervision of <a href="https://scholar.google.com/citations?user=I-kR9XsAAAAJ">Pouyan Sepehrdad</a>.</p>
       <p>I love teaching: I worked as <em>TA</em> in basic programming, and computer security courses, and as a freelance consultant I teached malware analysis, and mobile and windows reverse engineering for the <a href="https://www.consorzio-cini.it">Consorzio Interuniversitario Nazionale per l’Informatica</a>, and national, and international clients of Italian security firms <a href="https://www.securenetwork.it">Secure Network</a>, and <a href="http://www.shorr-kan.com/">Shorr Kan</a>. You can also check out my condensed <a href="/s/cv.pdf">CV</a>.</p>
       <h3 id="research-interests">Research interests</h3>
-      <p>I love Reverse Engineering in <a href="/projects/">all of its forms</a>. I worked on (android) malware analysis as <em>Research Assistant</em> in Politecnico di Milano, working on the <a href="https://andrototal.org">Andrototal</a> project, and more in general on malware analysis as a freelance consultant. I am currently working on the <a href="projects/#crave">CrAVe</a> project to develop a deeper understanding of anti-malware solutions, and how they are impacted by evasive malware. During my PhD I focused instead on <a href="https://robosec.org">Industrial systems</a> and more in general on the inherent challenges posed IoT and embedded systems at large.</p>
+      <p>I love Reverse Engineering in <a href="/projects/">all of its forms</a>. I worked on (android) malware analysis as <em>Research Assistant</em> in Politecnico di Milano, working on the <a href="https://andrototal.org">Andrototal</a> project, and more in general on malware analysis as a freelance consultant. I am currently working on the <a href="projects/#crave">CrAVe</a> project to develop a deeper understanding of anti-malware solutions, and how they are impacted by evasive malware. During my PhD I focused on <a href="https://robosec.org">Industrial systems</a> and more in general on the inherent challenges posed IoT and embedded systems at large.</p>
       My current research interest lies at the intersection of these two topics, where we’ll probably see more and more attacks being carried through embedded systems (e.g., Mirai, amplification attacks, etc.).
       <hr />
+      <div class="pure-g">
+      <div class="pure-u-2-3">
+      <h2 id="highlights">Highlights</h2>
+      <ul>
+      <li><strong>2018</strong> DarkReadings <a href="https://www.darkreading.com/vulnerabilities---threats/new-security-woes-for-popular-iot-protocols/d/d-id/1333069">interview</a> about MQTT&amp;CoAP</li>
+      <li><strong>2018</strong> MQTT&amp;CoAP security talk at <a href="https://www.blackhat.com/eu-18/briefings/schedule/index.html#when-machines-cant-talk-security-and-privacy-issues-of-machine-to-machine-data-protocols-12722">BHEU’18</a></li>
+      <li><strong>2018</strong> Engineering intern at Qualcomm’ QPSI!
+      <p class="fas fa-xs fa-heart">
+      </p></li>
+      <li><strong>2018</strong> <a href="/projects/#crave">Crave</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-319-93411-2_16">ELISA</a> got accepted @DIMVA’18!</li>
+      <li><strong>2018</strong> invited <a href="https://www.troopers.de/troopers18/agenda/yxzlz7/">talk</a> and <a href="https://www.troopers.de/troopers18/agenda/bgsj3x/">panel</a> on <em>robots</em> at Troopers’18 <!-- + **2017** [paper](https://robosec.org) on industrial robot security accepted at IEEE S&amp;P'17--></li>
+      </ul>
+      </div>
+      <div class="pure-u-1-3">
       <h2 id="contact">Contact</h2>
       <p class="social fas fa-envelope">
       quarta <a class="fas fa-xs fa-at"><a> eurecom <a class="far fa-xs fa-dot-circle"></a> fr
@@ -73,20 +93,8 @@
       <p class="social fab fa-linkedin">
       <a href="https://linkedin.com/in/dvqu">dvqu</a>
       </p>
-      <hr />
-      <h2 id="highlights">Highlights</h2>
-      <ul>
-      <li><strong>2018</strong> <a href="https://www.blackhat.com/eu-18/briefings/schedule/index.html#when-machines-cant-talk-security-and-privacy-issues-of-machine-to-machine-data-protocols-12722">talk</a> on MQTT&amp;CoAP security at BlackHat EU with DarkReading interview</li>
-      <li><strong>2018</strong> Engineering intern at Qualcomm’ QPSI!
-      <p class="fas fa-xs fa-heart">
-      </p></li>
-      <li><strong>2018</strong> <a href="/projects/#crave">Crave</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-319-93411-2_16">ELISA</a> got accepted @DIMVA’18!</li>
-      <li><strong>2018</strong> invited <a href="https://www.troopers.de/troopers18/agenda/yxzlz7/">talk</a> and <a href="https://www.troopers.de/troopers18/agenda/bgsj3x/">panel</a> on <em>robots</em> at Troopers’18</li>
-      <li><strong>2017</strong> <a href="https://robosec.org">paper</a> on industrial robot security accepted at IEEE S&amp;P’17</li>
-      </ul>
-      <p class="text-right">
-      Go to the full list of <a href="/publications">publications and talks</a>
-      </p>
+      </div>
+      </div>
 
       <p style="text-align: right;"></p>
 
@@ -99,7 +107,7 @@
             <small class="pale">
                 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Attribution-ShareAlike 2.0 Generic License</a>.
             <br />
-                Updated on 2018-11-06T21:03:54+0100 - developed on <a href="https://github.com/phretor/src.maggi.cc/blob/master/README.md">@phretor static generator</a>
+                Updated on 2018-11-06T23:51:01+0100 - developed on <a href="https://github.com/phretor/src.maggi.cc/blob/master/README.md">@phretor static generator</a>
             </small>
           </div>
         </div>
